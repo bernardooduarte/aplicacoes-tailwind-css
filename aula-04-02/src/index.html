@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="./apresentaMenu.js" defer></script>
+</head>
+
+<body>
+  <nav class="bg-white">
+    <div class="flex flex-wrap justify-between p-4">
+      <a href="https://acme.com/" class="flex items-center space-x-3">
+        <img src="../img/acme-logo.png" class="h-12" alt="Acme Logo" />
+      </a>
+      <button type="button" id="botao-menu"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden">
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+
+      <div class="hidden w-full md:block md:w-auto" id="menu-opcoes">
+        <ul
+          class="font-medium flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-100 md:p-0 md:flex-row md:space-x-8">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-red-700 rounded-sm md:bg-transparent md:text-red-700"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-red-200 ">Produtos</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-red-200 ">Contato</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-red-200 ">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="conteudo" class="p-2 text-justify">
+    <h1 class="text-3xl md:text-4xl font-bold">Lorem ipsum dolor sit amet</h1>
+    <p class="mt-2 mb-4">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi felis mauris, placerat in rutrum ac, sodales at
+      nisi. Nullam bibendum mi id orci dapibus viverra. Aliquam semper interdum lacus id placerat. Nullam fringilla est
+      eget nulla consectetur sollicitudin. Mauris porta condimentum ex. Mauris imperdiet purus porta, aliquam urna sit
+      amet, viverra lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Nullam sit amet imperdiet velit, nec eleifend ligula. Proin id tempus ipsum, non finibus tortor. Sed ultricies
+      ligula eros, in pellentesque ante pulvinar ut. Etiam fringilla dui tellus, et faucibus quam vulputate at.
+    </p>
+    <p class="mb-4">
+      Mauris ut ligula diam. Curabitur a viverra ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+      posuere cubilia curae; Cras non tortor ut justo aliquet porttitor quis sed massa. In a auctor quam. Vivamus
+      laoreet id enim non congue. Cras commodo ornare neque sed laoreet. Pellentesque vel maximus nisl. Morbi tincidunt
+      tincidunt sem vel sollicitudin. Nullam lectus ligula, tempus in ante et, luctus sollicitudin dui.
+    </p>
+    <p class="mb-4">
+      Morbi vel nunc lacinia, efficitur libero vitae, ultrices orci. Pellentesque eget ultrices leo. Etiam auctor ligula
+      vitae purus ornare fermentum. In imperdiet est ut tempor accumsan. Etiam ullamcorper ullamcorper est, vel aliquet
+      arcu porttitor ac. Integer vehicula risus nec ex vestibulum mattis. Phasellus vitae blandit urna, a malesuada
+      turpis. Nunc tortor orci, tristique nec ante id, scelerisque molestie sapien.
+    </p>
+    <p class="mb-4">
+      Sed leo purus, bibendum et sapien quis, posuere tincidunt lacus. Fusce semper ante dignissim libero pretium
+      dictum. Nullam sollicitudin condimentum felis, at pellentesque augue finibus a. Sed imperdiet ligula vel elit
+      maximus vulputate. Fusce vitae sem massa. Phasellus vitae commodo odio, eget volutpat ante. Duis blandit sem in
+      sem mattis pretium. Nam porttitor in diam eget euismod.
+    </p>
+    <p class="mb-4">
+      Nullam dapibus nunc a molestie posuere. Etiam vitae enim est. Sed dui ante, sollicitudin at semper eget, aliquet
+      ut felis. Praesent accumsan risus vitae rhoncus pulvinar. Fusce et magna velit. Sed maximus sit amet lacus quis
+      tristique. Suspendisse at fringilla odio, sit amet ultrices quam. Fusce porta commodo sodales. Nulla dictum
+      vulputate augue sed laoreet.
+    </p>
+  </div>
+</body>
+
+</html>
